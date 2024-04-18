@@ -1,3 +1,4 @@
+#This was the code used for my Medium blog called "Python Basics"
 print ('Welcome to my first blog!')
 myName = input ('What is your name? ') #User types in their name as input
 print ('Good to meet you, ' + myName)
