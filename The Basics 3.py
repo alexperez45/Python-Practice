@@ -21,3 +21,14 @@ x = 10
 while x > 1:
     print (x * '*')
     x = x - 1
+
+books = ['Frankenstein', 'David Copperfield', 'Brave New World', 'Moby Dick', 'Little Woman']
+authors = ['Shelley', 'Dickens', 'Huxley', 'Melville', 'Alcott']
+
+for x in range(len(books)):
+    input ('Who wrote ' + books[x] + '? ')
+
+print ('\nThe correct book titles and authors are:')
+
+for x in range(len(authors)):
+    print (books[x] + ' - ' + authors[x])
