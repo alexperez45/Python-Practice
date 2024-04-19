@@ -32,3 +32,9 @@ print ('\nThe correct book titles and authors are:')
 
 for x in range(len(authors)):
     print (books[x] + ' - ' + authors[x])
+
+print ('Little Woman' in  books)
+books.clear ()
+authors.clear()
+print (books)
+print (authors)
