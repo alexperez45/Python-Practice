@@ -11,3 +11,13 @@ elif metric.upper() == 'L':
     print ("Weight in Kg: " + str(weight))
 else:
     print ("Please try again")
+
+i = 1
+while i < 10:
+    print (i * '*')
+    i = i + 1
+
+x = 10
+while x > 1:
+    print (x * '*')
+    x = x - 1
