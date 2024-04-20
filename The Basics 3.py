@@ -35,6 +35,7 @@ for x in range(len(authors)):
 
 print ('Little Woman' in  books)
 books.clear ()
-authors.clear()
+authCount = authors.count("Shelley")
+print (authCount)
 print (books)
 print (authors)
