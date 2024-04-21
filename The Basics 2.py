@@ -18,3 +18,5 @@ first_num = input ('First: ') # you can also convert to float here ex: float(inp
 second_num = input ('Second: ') # you can also convert to float here
 sum = float(first_num) + float(second_num)
 print ('Sum: ' + str(sum))
+# f-string
+print (f'The price is ${price} and my favorite number is {sum}')
