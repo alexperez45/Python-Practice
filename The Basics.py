@@ -11,6 +11,8 @@ print (price)
 print ('Now lets get ur input')
 name = input ('What is your name? ')
 print ('Hey ' + name + '!')
+print (type (name))
+print (type (age))
 course = 'Python for beginners' # this string is an object
 print (course.upper()) # the function after the variable is called a method
 # I like to think of it as manipulating an object
