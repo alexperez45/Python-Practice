@@ -1,16 +1,18 @@
 #Here I will expirment with if statments, loops, lists and more
-weight = int(input ("How much do you weigh? "))
-metric = input ("(K)g or (L)bs: ")
-if metric.upper() == 'K': # upper method used to turn lowercase 'k' to uppercase
-    weight = weight * 2.205
-    weight = round(weight,2)
-    print ('Weight in Lbs: ' + str(weight))
-elif metric.upper() == 'L':
-    weight = weight / 2.205
-    weight = round(weight,2)
-    print ("Weight in Kg: " + str(weight))
+weight = input ("How much do you weigh? ")
+if weight.isdigit():
+    weight = float(weight)
+    metric = input ("(K)g or (L)bs: ")
+    if metric.upper() == 'K': # upper method used to turn lowercase 'k' to uppercase
+        weight = weight * 2.205
+        weight = round(weight,2)
+        print ('Weight in Lbs: ' + str(weight))
+    elif metric.upper() == 'L':
+        weight = weight / 2.205
+        weight = round(weight,2)
+        print ("Weight in Kg: " + str(weight))
 else:
-    print ("Please try again")
+    print ("Please enter a number")
 
 i = 1
 while i < 10:
