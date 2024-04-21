@@ -1,4 +1,5 @@
 #Here I will expirment with if statments, loops, lists and more
+import time
 weight = input ("How much do you weigh? ")
 if weight.isdigit():
     weight = float(weight)
@@ -13,6 +14,8 @@ if weight.isdigit():
         print ("Weight in Kg: " + str(weight))
 else:
     print ("Please enter a number")
+
+print ('.'); time.sleep(1); print ('.'); time.sleep(1); print ('.'); time.sleep(1)
 
 i = 1
 while i < 10:
