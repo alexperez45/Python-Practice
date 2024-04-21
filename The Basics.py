@@ -19,3 +19,8 @@ print (course.upper()) # the function after the variable is called a method
 print (course.find('n')) # We can also set a parameter
 print (course.replace('for', '4')) # We can also set MULTIPLE parameters
 print ('for' in course) # Strings are immunitable so this will be true
+number = int(input("Please enter a number: "))
+if number % 2 == 0:
+  print("This is an even number.")
+else:
+  print("This is an odd number.")
