@@ -1,4 +1,5 @@
 #Here I will expirment with if statments, loops, lists and more
+import random
 import time
 weight = input ("How much do you weigh? ")
 if weight.isdigit():
@@ -48,7 +49,11 @@ print (authors)
 fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
  
-dirty_dozen = [fruits, vegetables]
+two_lists = [fruits, vegetables]
+number2 = random.randint(0,4)
+number1 = random.randint(0,6)
  
-print(dirty_dozen[0][2])
-print(dirty_dozen[1][2])
+print(two_lists[0][2])
+print(two_lists[1][2])
+print(two_lists[0][number1])
+print(two_lists[1][number2])
