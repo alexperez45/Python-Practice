@@ -11,9 +11,9 @@ print ('\nThe correct book titles and authors are:')
 for x in range(len(authors)):
     print (books[x] + ' - ' + authors[x])
 
-print ('Little Woman' in  books)
-books.clear ()
-authCount = authors.count("Shelley")
+print ('Little Woman' in  books) #looks for string and prints true or false
+books.clear () #clears books list
+authCount = authors.count("Shelley") # variable that checks for every occurance of "Shelley" in list
 print (authCount)
 print (books)
 print (authors)
