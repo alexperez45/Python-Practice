@@ -32,6 +32,6 @@ while x > 1:
 target = int(input("Type a number: "))
 target += 1
 total = 0
-for number in range(0, target, 2):
+for number in range(2, target, 2):
   total += number
 print (total)
